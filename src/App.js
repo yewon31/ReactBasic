@@ -1,23 +1,27 @@
-import StateComponent from "./component/StateComponent";
-import {Fragment, useState} from 'react';
-import StateComponentQ from "./component/StateComponentQ";
-import ClassComponent from "./component/ClassComponent";
+import { Fragment } from "react";
+import IterationComponent from "./component/IterationComponent";
+import IterationComponent2 from "./component/IterationComponent2";
+import IterationComponentQ from "./component/IterationComponentQ";
+import IterationComponentQ2 from "./component/IterationComponentQ2";
+
 
 function App() {
 
   return (
+
     <Fragment>
-      <StateComponent/>
+      <IterationComponent/>
 
       <hr/>
-      <StateComponentQ/>
+      <IterationComponent2/>
 
-      <hr/>
-      <ClassComponent name="홍길동" age={20}/>
+      <IterationComponentQ/>
+
+      <IterationComponentQ2/>
 
 
     </Fragment>
   )
-
 }
+
 export default App;
