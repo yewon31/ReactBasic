@@ -1,18 +1,20 @@
-import { Fragment } from "react";
-import StateComponent from "./component/StataComponent";
+import StateComponent from "./component/StateComponent";
+import {Fragment, useState} from 'react';
 import StateComponentQ from "./component/StateComponentQ";
 import ClassComponent from "./component/ClassComponent";
 
 function App() {
+
   return (
     <Fragment>
-        <StateComponent/>
+      <StateComponent/>
 
-        <br/>
-        <StateComponentQ/>
+      <hr/>
+      <StateComponentQ/>
 
-        <br/>
-        <ClassComponent name="홍길동" age={20}/>
+      <hr/>
+      <ClassComponent name="홍길동" age={20}/>
+
 
     </Fragment>
   )

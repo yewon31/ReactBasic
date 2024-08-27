@@ -4,11 +4,11 @@ import './index.css';
 import App from './App'; //appjs를 받아서 App이름으로 import
 import reportWebVitals from './reportWebVitals';
 
-//컴포넌트에서 사용하는 전역설정이 들어감
-//App JS를 index - ID:root 태그에 넣어주고 있음
+//컴포넌트에서 사용하는 전역설정
+//App JS를 id가 root인 태그에 넣어주고 있음.
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //<React.StrictMode> //값을 한번 더 검증 -> run하면 한 번 더 실행됨
+  //<React.StrictMode>
     <App />
   //</React.StrictMode>
 );
