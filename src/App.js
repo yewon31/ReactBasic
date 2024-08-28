@@ -1,26 +1,23 @@
-import { Fragment } from "react";
-import IterationComponent from "./component/IterationComponent";
-import IterationComponent2 from "./component/IterationComponent2";
-import IterationComponentQ from "./component/IterationComponentQ";
-import IterationComponentQ2 from "./component/IterationComponentQ2";
-
+import HookEffect from "./hook/HookEffect";
+import HookQ2 from "./hook/HookQ2";
+import HookReducer from "./hook/HookReducer";
+import HookReducer2 from "./hook/HookReducer2";
+import HookRef from "./hook/HookRef";
 
 function App() {
 
   return (
-
-    <Fragment>
-      <IterationComponent/>
-
+    <>
+      <HookEffect/>
       <hr/>
-      <IterationComponent2/>
-
-      <IterationComponentQ/>
-
-      <IterationComponentQ2/>
-
-
-    </Fragment>
+      <HookRef/>
+      <hr/>
+      <HookReducer/>      
+      <hr/>
+      <HookReducer2/>
+      <hr/>
+      <HookQ2/>
+    </>
   )
 }
 

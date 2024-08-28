@@ -1,8 +1,6 @@
 import { useState } from "react";
 
-
 const EventComponentQ = () => {
-
 
     //실습
     let [form, setForm] = useState({data: '', result: ''})

@@ -3,21 +3,18 @@ import EventComponent from "./component/EventComponent";
 import EventComponent2 from "./component/EventComponent2";
 import EventComponentQ from "./component/EventComponentQ";
 
-
-
 function App() {
-
 
   return (
     <Fragment>
-      <EventComponent/>
+      <EventComponent />
 
-      <hr/>
+      <hr />
 
-      <EventComponent2/>
+      <EventComponent2 />
 
-      <hr/>
-      <EventComponentQ/>
+      <hr />
+      <EventComponentQ />
 
 
     </Fragment>

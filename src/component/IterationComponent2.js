@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 function IterationComponent2() {
 
   //1. 기존에 가짜 데이터 -> 서버에서 받아오는 데이터.
